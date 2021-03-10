@@ -2,14 +2,14 @@ import twitter
 import os.path
 import time
 
-consumer_key        = "vMTqxHCOi7ab3hdF5RnIckJdK"
-consumer_secret     = "eJTsl3t1eHOJ6ZkOBqFnbAkXpuMWVcFXoibAtIqI8UtFo6r962"
-access_token        = "1080263263-6cp7aZskQgn2rcm063x4uugNjVXjtWlEq6Hykjn"
-access_token_secret = "UdG0HirPxqBhQMdUVhya0cWpIg175smnbwn1Oo1uf0mOQ"
+consumer_key        = ""
+consumer_secret     = ""
+access_token        = ""
+access_token_secret = ""
 
 # 프로그램 최초 실행시
 # Twitter Api Connecting
-account = "@whtnwkd"
+account = "@"
 twitter_api = twitter.Api(consumer_key=consumer_key,
                           consumer_secret=consumer_secret, 
                           access_token_key=access_token, 
